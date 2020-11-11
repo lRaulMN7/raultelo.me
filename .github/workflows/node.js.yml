@@ -41,6 +41,6 @@ jobs:
         port: 22
         script: |
           cd ~/raultelo.me
-          git pull origin master
+          git pull origin main
           npm install --production
           pm2 restart node-app
