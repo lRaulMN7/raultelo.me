@@ -1,3 +1,8 @@
 body {
-    background-color: #E2E2E1;
-  }
+  background-color: #E6F1F4;
+}
+
+#title {
+  text-align: center;
+  margin: 1.5em;
+}
