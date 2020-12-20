@@ -6,6 +6,7 @@
   "scripts": {
     "ts:node": "ts-node src/index.ts",
     "clean": "del -r build",
+    "clearBuild": "rm -rf build",
     "build": "tsc ",
     "start": "node build/src",
     "dev": "nodemon",

@@ -43,10 +43,14 @@ jobs:
         script: |
           cd ~/raultelo.me
           git pull origin main
-          cd backend
-          npm install --production
-          pm2 restart backend
-          cd ..
           cd frontend
           npm install --production
           pm2 restart frontend
+          cd ..
+          cd backend
+          npm install --production
+          npm run clearBuild
+          npm run build
+          pm2 restart backend
+      
+     

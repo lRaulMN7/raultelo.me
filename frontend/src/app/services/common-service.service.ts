@@ -14,7 +14,7 @@ export class CommonServiceService {
 
   
   getSarita(){
-    return this.http.get("http://localhost:3000/sarita/", this.httpOptions);
+    return this.http.get("http://localhost:4200/sarita/", this.httpOptions);
   }
 
 
