@@ -6,7 +6,7 @@ import path from 'path'
 import IndexRoutes from './routes'
 
 const app = express()
-const port = 4200
+const port = 3600
 
 app.use(cors({ origin: true }));
 
