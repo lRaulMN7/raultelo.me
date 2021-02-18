@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
+  "scripts": { 
     "ts:node": "ts-node src/index.ts",
     "clean": "del -r build",
     "clearBuild": "rm -rf build",

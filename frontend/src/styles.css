@@ -1,9 +1,62 @@
 /* You can add global styles to this file, and also import other style files */
+
 body {
-    background-color: #e4eef1;
+    background-image: url("assets/wallpaper2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
   }
+
+#top, #bottom, #left, #right {
+    background: #00171d;
+    position: fixed;
+    z-index: 100;
+    }
+    #left, #right {
+      top: 0; bottom: 0;
+      width: 15px;
+      }
+      #left { left: 0; }
+      #right { right: 0; }
+      
+    #top, #bottom {
+      left: 0; right: 0;
+      height: 15px;
+      }
+      #top { top: 0; }
+      #bottom { bottom: 0; }
   
   #title {
     text-align: center;
     margin: 1.5em;
+  }
+
+  h1{
+    color: white;
+  }
+
+  p{
+    color: white
+  }
+
+  .container{
+    border: 3px solid rgb(252, 237, 237);
+  }
+
+  #mainDiv{
+    margin-top: 3%;
+    background: #000000b0;
+    max-height: max-content;
+  }
+
+  .row{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+  }
+
+  #kdaSong p{
+    line-height: 0.6;
   }
